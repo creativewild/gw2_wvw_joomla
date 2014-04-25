@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.0.0">
+    <!-- Name of the Module -->
+    <name>WvW Scores</name>
+
+    <!-- Name of the Author -->
+    <author>omniomi with SDK by Sorrow.7384</author>
+
+    <!-- Version Date of the Module -->
+    <creationDate>2013-05-23</creationDate>
+
+    <!-- Copyright information -->
+    <copyright>None</copyright>
+
+    <!-- License Information -->
+    <license>GPL 2.0</license>
+
+    <!-- Author's email address -->
+    <authorEmail>REDACTED</authorEmail>
+
+    <!-- Author's website -->
+    <authorUrl>http://www.REDACTED.com</authorUrl>
+
+    <!-- Module version number -->
+    <version>1.0.0</version>
+
+    <!-- Description of what the module does -->
+    <description>Provides WvW Scores</description>
+
+    <!-- Listing of all files that should be installed for the module to function -->
+    <files>
+        <!-- The "module" attribute signifies that this is the main controller file -->
+        <folder>src</folder>
+        <folder>cache</folder>
+        <filename module="mod_wvwscores">mod_wvwscores.php</filename>
+        <filename>index.htm</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="WvW" label="Select home World">
+                <field 
+					name="homeserver" 
+					type="list"  
+					label="Select Home World" 
+					description="Select Home World">
+                    <option value="#">Choose a World</option>
+                    <option value="2204">Abaddon's Mouth [DE]</option>
+                    <option value="1001">Anvil Rock</option>
+                    <option value="2105">Arborstone [FR]</option>
+                    <option value="2103">Augury Rock [FR]</option>
+                    <option value="2013">Aurora Glade</option>
+                    <option value="2301">Baruch Bay [SP]</option>
+                    <option value="1019">Blackgate</option>
+                    <option value="2004">Blacktide</option>
+                    <option value="1002">Borlis Pass</option>
+                    <option value="1014">Crystal Desert</option>
+                    <option value="1012">Darkhaven</option>
+                    <option value="2002">Desolation</option>
+                    <option value="1023">Devona's Rest</option>
+                    <option value="1021">Dragonbrand</option>
+                    <option value="2205">Drakkar Lake [DE]</option>
+                    <option value="2207">Dzagonur [DE]</option>
+                    <option value="1010">Ehmry Bay</option>
+                    <option value="2203">Elona Reach [DE]</option>
+                    <option value="1024">Eredon Terrace</option>
+                    <option value="2007">Far Shiverpeaks</option>
+                    <option value="1020">Ferguson's Crossing</option>
+                    <option value="2001">Fissure of Woe</option>
+                    <option value="1009">Fort Aspenwood</option>
+                    <option value="2102">Fort Ranik [FR]</option>
+                    <option value="2003">Gandara</option>
+                    <option value="1007">Gate of Madness</option>
+                    <option value="2014">Gunnar's Hold</option>
+                    <option value="1004">Henge of Denravi</option>
+                    <option value="1015">Isle of Janthir</option>
+                    <option value="1008">Jade Quarry</option>
+                    <option value="2101">Jade Sea [FR]</option>
+                    <option value="1022">Kaineng</option>
+                    <option value="2201">Kodash [DE]</option>
+                    <option value="1005">Maguuma</option>
+                    <option value="2206">Miller's Sound [DE]</option>
+                    <option value="1018">Northern Shiverpeaks</option>
+                    <option value="2012">Piken Square</option>
+                    <option value="2005">Ring of Fire</option>
+                    <option value="2202">Riverside [DE]</option>
+                    <option value="2009">Ruins of Surmia</option>
+                    <option value="1013">Sanctum of Rall</option>
+                    <option value="1016">Sea of Sorrows</option>
+                    <option value="2010">Seafarer's Rest</option>
+                    <option value="1006">Sorrow's Furnace</option>
+                    <option value="1011">Stormbluff Isle</option>
+                    <option value="1017">Tarnished Coast</option>
+                    <option value="2006">Underworld</option>
+                    <option value="2011">Vabbi</option>
+                    <option value="2104">Vizunah Square [FR]</option>
+                    <option value="2008">Whiteside Ridge</option>
+                    <option value="1003">Yak's Bend</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+    <!-- Optional parameters -->
+    <params />
+</extension>
