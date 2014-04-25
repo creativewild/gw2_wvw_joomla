@@ -1,38 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="1.0.0">
-    <!-- Name of the Module -->
-    <name>WvW Scores</name>
-
-    <!-- Name of the Author -->
-    <author>omniomi with SDK by Sorrow.7384</author>
-
-    <!-- Version Date of the Module -->
-    <creationDate>2013-05-23</creationDate>
-
-    <!-- Copyright information -->
+    <name>Guild Wars 2WvW Scores</name>
+    <author>creativewild.6319 using API wrapper from Sorrow.7384</author>
+    <creationDate>2014-04-25</creationDate>
     <copyright>None</copyright>
-
-    <!-- License Information -->
     <license>GPL 2.0</license>
-
-    <!-- Author's email address -->
-    <authorEmail>REDACTED</authorEmail>
-
-    <!-- Author's website -->
-    <authorUrl>http://www.REDACTED.com</authorUrl>
-
-    <!-- Module version number -->
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
     <version>1.0.0</version>
-
-    <!-- Description of what the module does -->
-    <description>Provides WvW Scores</description>
-
-    <!-- Listing of all files that should be installed for the module to function -->
+    <description>Provides Guild Wars 2 WvW Scores</description>
     <files>
-        <!-- The "module" attribute signifies that this is the main controller file -->
         <folder>src</folder>
         <folder>cache</folder>
-        <filename module="mod_wvwscores">mod_wvwscores.php</filename>
+        <filename module="mod_gw2wvw">mod_gw2wvw.php</filename>
         <filename>index.htm</filename>
     </files>
     <config>
@@ -99,6 +79,5 @@
             </fieldset>
         </fields>
     </config>
-    <!-- Optional parameters -->
     <params />
 </extension>
